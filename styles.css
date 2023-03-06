@@ -31,5 +31,6 @@ body {
 .galeria img {
     height: 300px;
     max-width: 350px;
+    object-fit: cover;
     width: 100%;
 }
