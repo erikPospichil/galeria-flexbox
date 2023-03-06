@@ -29,6 +29,12 @@ body {
     padding: 20px 10px;
 }
 
+/* Cria um elemento em branco, após o último filho do elemento selecionado: */
+.galeria::after {
+    content: "";
+    width: 350px;
+}
+
 .galeria img {
     border-radius: 10px;
     height: 300px;
